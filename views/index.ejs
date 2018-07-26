@@ -1,0 +1,109 @@
+<% include ./partials/header %>
+
+<!-- Title -->
+<div class="navbar">
+  <img class="logo">
+  <div class="nav-links">
+    <a href="#about-link" class="nav nav-about">About Me</a>
+    <a href="#skills-link" class="nav nav-skills">Skills</a>
+    <a href="#proj-link" class="nav nav-proj">Projects</a>
+    <a href="#contact-link" class="nav nav-contact">Contact</a>
+  </div>
+</div>
+
+<div class="head-img inset-shadow">
+  <h1 class="head-title">Zack Hann</h1>
+  <p class="head-kicker">Designer // Developer</p>
+</div>
+
+<div class="hero-box">
+  <div class="hero-info">
+    <div class="hero-info-bg">
+      <h1>{</h1>
+      <h1>}</h1>
+    </div>
+    <p>Clean & meaningful design.</p>
+    <p>Quick & responsive browsing experience.</p>
+  </div>
+</div>
+
+<!-- About Me -->
+
+<div id="about-link" class="about-img">
+  <div class="section-text">
+    <h1 class="section-title pv-block" pv-speed="3" pv-mediatype="none">About Me</h1>
+    <div>
+      <span class="custom-rule"></span>
+    </div>
+    <p class="section-kicker">Who am I?</p>
+  </div>
+</div>
+
+
+<div class="about-box">
+  <div class="about-info">
+    <img class="headshot" src="/img/headshot1.jpg" alt="Headshot">
+    <h1>Hi! I'm Zack.</h1>
+    <p>I'm a 31-year-old self-taught web designer & full-stack developer located in the Atlanta area. My partner, Lauren, and I have an incredible 3-year-old named Bee. She's pretty much the coolest!</p>
+  </div>
+</div>
+
+<!-- Skills -->
+
+<div id="skills-link" class="skills-img inset-shadow">
+  <div class="section-text">
+    <h1 class="section-title">Skills</h1>
+    <div>
+      <span class="custom-rule" id="skill-rule"></span>
+    </div>
+    <p class="section-kicker">What can I do for you?</p>
+  </div>
+  </section>
+</div>
+
+<div class="info-box">
+  <div class="skills-info">
+    <% include ./partials/skills %>
+  </div>
+</div>
+
+<!-- Projects -->
+
+<div id="proj-link" class="proj-img inset-shadow">
+  <div class="section-text">
+    <h1 class="section-title">Projects</h1>
+    <div>
+      <span class="custom-rule"></span>
+    </div>
+    <p class="section-kicker">See what I've done.</p>
+  </div>
+</div>
+
+<div class="proj-box">
+  <div class="inner-info">
+      <% include ./partials/projects.ejs %>
+  </div>
+</div>
+
+<!-- Contact -->
+
+<div id="contact-link" class="contact-img inset-shadow">
+  <div class="section-text">
+    <h1 class="section-title">Contact Me</h1>
+    <div>
+      <span class="custom-rule"></span>
+    </div>
+    <p class="section-kicker">Let's get in touch!</p>
+  </div>
+</div>
+
+<div class="contact-box">
+  <div class="inner-info">
+      <% include ./partials/contact %>
+  </div>
+</div>
+
+<div class="footer inset-shadow">
+  <h1 class="footer-title">Zack Hann</h1>
+</div>
+<% include ./partials/footer %>

@@ -1,0 +1,122 @@
+:root {
+  --light-sky: #D6DBE7;
+  --dark-sky: #454349;
+  --dark-water: #6E7681;
+  --light-sand: #a59c9a;
+  --dark-sand: #8d827b;
+  --kelp: #465240;
+  --light-kelp: #738475;
+}
+
+
+#contact-form {
+  margin:50px auto 0 auto;
+  display:flex;
+  width:45vw;
+  min-width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#contact-form input,#contact-form textarea {
+  min-height: 28px;
+  padding: 5px 15px;
+  font-family: Poppins, sans-sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 1.1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+  border-left: solid 4px rgba(115, 132, 117, .4);
+  /* border-right: solid 4px rgba(115, 132, 117, .5); */
+  color: var(--dark-sky);
+  background: linear-gradient(to bottom right, #C9CED7, #C1C5D0);
+  filter: drop-shadow(8px 5px 10px rgba(110, 118, 129, .4));
+}
+
+#contact-form label, #contact-form p  {
+  font-family: 'Hind Siliguri', sans-serif;
+  color: var(--dark-water);
+  margin-left:10px;
+}
+
+#contact-form p {
+  margin: 0;
+}
+
+#contact-form form div {
+  display:flex;
+  flex-direction: column;
+  width:45vw;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+
+.form-name input, .form-email input{
+  max-width: 300px;
+}
+
+#contact-form div:nth-of-type(5) {
+  display: flex;
+  align-items: flex-end;
+  margin:-5px;
+}
+
+
+#contact-form div:nth-of-type(6) {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+#contact-form button {
+  height: 50px;
+  width: 100px;
+  font-family: 'Hind Siliguri', sans-sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 1.1px;
+  border-radius: 8px;
+  border: none;
+  border: solid 3px rgba(115, 132, 117, .5);
+  color: var(--dark-sky);
+  background-color: rgba(214, 219, 231, .0);
+  margin-top: 15px;
+  cursor:pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  color: rgba(115, 132, 117, .5);
+  font-size: 3.2em;
+  display: inline-flex;
+  margin: 10px 20px 50px 20px;
+  padding: 0;
+}
+
+input:invalid, textarea:invalid {
+  box-shadow: none;
+  border-bottom:3px solid maroon;
+}
+
+@media screen and (max-width: 812px) {
+
+  .form-name input, .form-email input{
+    max-width: 400px;
+  }
+
+  .form-body {
+    font-size: .9em;
+  }
+
+  #contact-form div:nth-of-type(6) {
+    display: flex;
+    align-items: center;
+  }
+
+
+}

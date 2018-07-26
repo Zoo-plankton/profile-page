@@ -1,0 +1,21 @@
+<div class="carousel">
+  <div class="carousel-viewport">
+    <div class="nav-arrow"><</div>
+    <div class="main-window light-inset-shadow">
+      <% skills.forEach(function(skill){ %>
+        <div>
+          <div class="logo-container">
+            <% skill.img.forEach(function(path){ %>
+              <img class="skills-logo" src="<%= path %>" alt="">
+              <% }); %>
+          </div>
+          <div class="skill-rule"></div>
+          <div class="desc-container">
+            <p class="skills-desc"><%- skill.desc %></p>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+      <div class="nav-arrow">></div>
+  </div>
+</div>

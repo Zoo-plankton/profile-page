@@ -1,0 +1,20 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "Zack's profile page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Zack Hann",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.7",
+    "siema": "^1.5.1"
+  }
+}

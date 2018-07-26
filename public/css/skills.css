@@ -1,0 +1,127 @@
+:root {
+  --light-sky: #D6DBE7;
+  --dark-sky: #454349;
+  --dark-water: #6E7681;
+  --light-sand: #a59c9a;
+  --dark-sand: #8d827b;
+  --kelp: #465240;
+  --light-kelp: #738475;
+}
+
+strong {
+  color: #746b65;
+  font-size: 1.1em;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-viewport {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-arrow {
+  font-family: 'Poppins', sans-serif;
+  font-size: 7vmax;
+  color: rgba(115, 132, 117, .7);
+  cursor: pointer;
+}
+
+.main-window {
+  min-height: 74vh;
+  width: 124.44vh;
+  background: rgba(115, 132, 117, .1);
+  overflow: hidden;
+  border-top: solid 5px rgba(115, 132, 117, .3);
+  border-bottom: solid 5px rgba(115, 132, 117, .3);
+}
+
+.logo-container {
+  display: flex;
+  justify-content:center;
+  margin: 4% auto;
+}
+
+.skills-logo {
+  max-height: 20vmin;
+  margin:0 15px;
+  filter: drop-shadow(15px 5px 15px rgba(115, 132, 117, 1));
+}
+
+.skill-rule {
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: radial-gradient(farthest-side at 50% 50%,rgba(115, 132, 117, .8),rgba(219,220,223,0));
+  display:block;
+  border:none;
+  color:red;
+  height:2px;
+}
+
+.desc-container {
+  margin: 4% auto;
+  height: 35vh;
+  width:45vw;
+  max-width: 100vh;
+}
+
+.skills-desc {
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 3.5vh;
+  color: var(--dark-sand);
+  margin: 0;
+  letter-spacing: 2px;
+  white-space: pre-line;
+  text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+
+  .carousel {
+    justify-content: space-between;
+  }
+
+  .main-window {
+    height:70vh;
+  }
+
+  .nav-arrow {
+      pointer-events: none;
+      position: absolute;
+      font-size: 4vmax;
+  }
+
+  .logo-container{
+    margin:0 auto;
+  }
+
+  .skills-logo {
+    margin-top: 5%;
+    max-height: 24vmin;
+    max-width: 185px;
+    margin-bottom: 5%;
+  }
+
+  .nav-arrow:first-of-type {
+    left:15%;
+  }
+
+  .nav-arrow:last-of-type{
+   right:15%;
+  }
+
+  .desc-container {
+    width:55vw;
+  }
+
+  .skills-desc {
+    font-size: 2.5vh;
+    margin-top: 10%;
+  }
+
+}

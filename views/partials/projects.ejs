@@ -1,0 +1,10 @@
+<div class="proj-container">
+  <% projects.forEach(function(project){ %>
+  <a href="<%= project.link %>" class="project" style="background-image: url(<%= project.img %>);
+">
+    <div class="proj-text">
+      <h1 class="proj-title"><%= project.title %></h1>
+      <p class="proj-desc"><%= project.description %></p>
+    </div>
+  </a>
+  <%  }); %>

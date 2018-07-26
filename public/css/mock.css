@@ -1,0 +1,37 @@
+.mock-container {
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  filter: drop-shadow(8px 5px 10px rgba(110, 118, 129, .4));
+}
+
+.mock-container p {
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  margin:0;
+  text-align: center;
+}
+
+.mock-container a:link, .mock-container a:visited {
+  color: #011E30;
+}
+
+.mock {
+  height: 523px;
+  width: 930px;
+  overflow:auto;
+  margin-bottom: 0;
+}
+
+.mock img {
+  width: 912px;
+}
+
+.pen {
+  width: 530px;
+  min-height: 635px;
+  filter: drop-shadow(8px 5px 10px rgba(110, 118, 129, .4));
+}
