@@ -306,7 +306,7 @@ a:link, a:visited {
 
 @media screen and (max-width: 812px) {
 
-  .head-img, .about-img, .skills-img, .proj-img, .contact-img {
+  .head-img, .about-img, .skills-img, .proj-img, .contact-img, .footer {
     background-attachment: scroll;
   }
 
