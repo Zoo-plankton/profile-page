@@ -16,7 +16,7 @@ var skills = [
     desc:"I have experience with non-relational databases via <strong>MongoDB</strong>, along with the tools needed to make it work smoothly - such as Mongoose & Body-Parser.",
   },
   {
-    img:["/img/logos/photoshop.png", "/img/logos/premiere.png", "/img/logos/audition.png"],
+    img:["/img/logos/photoshop.png", "/img/logos/premiere.png"],
     desc:"Extensive experience with the <strong>Adobe Creative Suite</strong> to create & edit still & moving images. I can chop audio, too!",
   },
   {

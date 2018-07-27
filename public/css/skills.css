@@ -47,7 +47,7 @@ strong {
 }
 
 .skills-logo {
-  max-height: 20vmin;
+  max-height: 20vw;
   margin:0 15px;
   filter: drop-shadow(15px 5px 15px rgba(115, 132, 117, 1));
 }
