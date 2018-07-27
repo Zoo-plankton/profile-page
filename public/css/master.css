@@ -15,7 +15,7 @@ html {
 
 body {
   width:100vw;
-  min-height: 100vh;
+  height: 100vh;
   margin:0;
   position: relative;
   background: linear-gradient(to right, #C7CBD5, #aaaeb7)
@@ -278,9 +278,7 @@ a:link, a:visited {
   background-attachment: fixed;
   overflow: hidden;
 }
-/* .contact-box {
-  height:700px;
-} */
+
 .footer{
   background-image: url("../img/hero-img.jpg");
   height: 15vh;
