@@ -306,6 +306,10 @@ a:link, a:visited {
 
 @media screen and (max-width: 812px) {
 
+  .head-img, .about-img, .skills-img, .proj-img, .contact-img {
+    background-attachment: scroll;
+  }
+
   .inset-shadow {
     -moz-box-shadow:
       inset 0 15px 75px -25px rgba(69, 67, 73, .0),
