@@ -119,5 +119,7 @@ input:invalid, textarea:invalid {
     align-items: center;
   }
 
-
+  #contact-form button {
+    width:150px;
+  }
 }
