@@ -14,10 +14,10 @@ html {
 }
 
 body {
+  height: 100vh;
   margin:0;
-  background: linear-gradient(to bottom right, #e4e8ef, #aaaeb7);
-  ;
   position: relative;
+  background: linear-gradient(to right, #C7CBD5, #aaaeb7)
 }
 
 .inset-shadow {
@@ -307,6 +307,18 @@ a:link, a:visited {
 
 @media screen and (max-width: 812px) {
 
+  .inset-shadow {
+    -moz-box-shadow:
+      inset 0 15px 75px -25px rgba(69, 67, 73, .0),
+      inset 0 -15px 75px -25px rgba(69, 67, 73, .0);
+    -webkit-box-shadow:
+      inset 0 15px 75px -25px rgba(69, 67, 73, .0),
+      inset 0 -15px 75px -25px rgba(69, 67, 73, .0);
+    box-shadow:
+      inset 0 15px 75px -25px rgba(69, 67, 73, .0),
+      inset 0 -15px 75px -25px rgba(69, 67, 73, .0);
+  }
+
   .navbar{
     display: none;
   }
@@ -345,7 +357,6 @@ a:link, a:visited {
   }
 
   .section-title {
-    margin-top: vh;
     color: rgba(190,200,203,.9);
   }
 
